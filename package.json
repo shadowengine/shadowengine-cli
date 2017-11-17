@@ -1,0 +1,33 @@
+{
+  "name": "shadowengine-cli",
+  "version": "0.1.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "shadoweng": "index.js"
+  },
+  "main": "index.js",
+  "author": "",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "caporal": "^0.7.0",
+    "electron-builder": "^19.34.1",
+    "empty-dir": "^0.2.1",
+    "execa": "^0.8.0",
+    "fs-exists-sync": "^0.1.0",
+    "intercept-stdout": "^0.1.2",
+    "klaw": "^2.1.0",
+    "listr": "^0.12.0",
+    "node-fs-extra": "^0.8.2",
+    "phonegap": "^7.1.0",
+    "prompt": "^1.0.0",
+    "recursive-readdir": "^2.2.1",
+    "replacestream": "^4.0.3",
+    "shelljs": "^0.7.8",
+    "tmp": "0.0.33",
+    "zen-observable": "^0.6.0"
+  }
+}
